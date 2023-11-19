@@ -14,6 +14,11 @@ body {
   width: 100%;
 }
 
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -156,5 +161,17 @@ img.socialIcon {
 @media screen and (max-width: 1126px) {
   section img.background{
     transform: translate(-30%, 20%);
+  }
+}
+
+/* add a slide in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
