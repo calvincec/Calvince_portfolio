@@ -34,7 +34,7 @@ const projectList = [
   {
     title: "LinkUp Fullstack social media site 🎉",
     description:
-      "A social media clone that. Uses Angular for the frontend and express for the backend. It is uses sqlServer for the database. It is a fullstack application that allows users to create posts, like posts, comment on posts, and follow other users.",
+      "A social media clone that uses Angular for the frontend and express for the backend. It is uses sqlServer for the database. It is a fullstack application that allows users to create posts, like posts, comment on posts, and follow other users.",
     url: "https://github.com/calvincec/LinkUp",
   },
   {
